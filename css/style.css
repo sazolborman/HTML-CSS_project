@@ -1,0 +1,267 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+header{
+
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+}
+.nav {
+	
+	width: 960px;
+	height: auto;
+	background-color: #000;
+}
+
+.nav ul li{
+	list-style: none;
+	display: inline-block;
+	position: relative;	
+}
+
+.nav ul li a{
+	display: block;
+	padding: 20px 35px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+
+
+}
+.nav ul li a:hover{
+	color:#4DCCD3; 
+	background-color: #07475C;
+}
+.nav ul li ul{
+	position: absolute;
+	background-color: #000;
+	left: -9999px;
+}
+.nav ul li:hover ul{
+	left: 0px;
+
+}
+.nav ul li ul li{
+	width: 200px;
+	border-bottom: 2px solid #fff;
+}
+.baner{
+	background-image: url(../images/baner.jpg);
+	height: 50vh;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+.baner_text{
+	padding: 100px;
+	text-align: center;
+}
+.baner_text button{
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border: 0px;
+	padding: 20px;
+	background-color: #000;
+	color: #fff;
+	margin: 0px 8px;
+}
+.baner_text button:hover{
+	background-color: #fff;
+	color: #000;
+	
+}
+.about_logo img{
+	width: 320px;
+	float: left;
+	margin: 10px 10px;
+	margin-top: 70px;
+	margin-bottom: 10px;
+	box-shadow: 0px 8px 10px 0px #000;
+
+}
+.about_text{
+	width: 520px;
+	padding: 0px 20px;
+	float: right;
+}
+.about_text h2{
+	font-size: 22px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-bottom: 2px solid #fff;
+	margin-bottom: 30px;
+	width: 300px;
+}
+.about_text p{
+	font-size: 18px;
+	color: gray;
+	line-height: 22px;
+}
+.about_text h1{
+	padding: 0px 60px;
+	width: 120px;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-bottom: 2px solid #fff;
+	margin-bottom: 30px;
+
+}
+
+.about_section{
+	background-color: #DCE7E5;
+	overflow: hidden;
+	padding: 40px 0px;
+	margin-top: 20px;
+}
+.service_sector{
+	background: #B7BBB2;
+	padding: 40px 0px;
+	margin-top: 20px;
+
+}
+.title h2{
+	padding: 0px 60px;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-bottom: 2px solid #fff;
+	margin-bottom: 30px;
+	text-align: center;
+
+}
+.service{
+	width: 280PX;
+	border: 2px solid #fff;
+	margin-left: 20px;
+	text-align: center;
+	display: inline-block;
+	margin: 16px;
+}
+.serv_icon{
+	font-size: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #fff;
+	transition: .5s;
+}
+.serv_icon i:hover{
+	color: #4DCCD3;
+	transform: scale(1.5);
+}
+.service p{
+	font-size: 15px;
+	color: gray;
+	line-height: 20px;
+}
+.service h3{
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+.contact_section{
+background:#DCE7E5;
+padding: 40px 0px;
+	margin-top: 20px;
+
+}
+.contact{
+	background: #fff;
+	padding: 15px 15px 15px 80px;
+	box-shadow: 0px 0px 10px #ccc;
+	width: 210px;
+	position: relative;
+	display: inline-block;
+	margin: 0px 5px;
+
+}
+.cont_icon i{
+	position: absolute;
+	width: 50px;
+	min-height: 50px;
+	float: left;
+	top: 8px;
+	left: 15px;
+	background: #222;
+	text-align: center;
+	color: #fff;
+	line-height: 50px;
+	font-size: 30px;
+}
+.cont_icon i:hover{
+	color:#4DCCD3;
+	background: #fff;
+}
+.cont_text p{
+	padding: 0;
+	margin: 0;
+	font-size: 18px;
+	line-height: 20px;
+}
+.input_tag input{
+	font-size: 20px;
+	width: 80%;
+	padding: 10px 10px;
+	border: 0;
+	margin: 8px 0px;
+}
+.contact_form{
+	width: 620px;
+	margin: 0px auto;
+	margin-top: 30px;
+}
+.input_tag textarea{
+	width: 515px;
+	border: 0;
+}
+.input_tag button{
+	width: 83.7%;
+	padding: 20px 0px;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	background: #4DCCD3;
+	margin-top: 4px;
+	border: 0;
+	color:#BB665B;
+}
+.input_tag button:hover{
+	background: #B0BCC1;
+	color: #434FB3;
+	
+
+}
+footer{
+	background: #4DCCD3;
+	margin-top: 20px;
+	padding: 50px 0px;
+}
+.footer_icon {
+	float: right;
+
+}
+.footer_icon i{
+	font-size: 30px;
+	padding: 0px 10px;
+	transition: .5s
+}
+.footer_icon i:hover{
+	color: #fff;
+	transform: scale(1.5);
+}
+.footer_text{
+	font-size: 20px;
+	font-weight: bold;
+	
+
+}
